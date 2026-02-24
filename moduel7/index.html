@@ -3,19 +3,22 @@
         <title>Module 7</title>
         <body>
             <form>
+                <fieldset>
+                    <legend>Personal Info:</legend>
+                    
             <label for="firstname">Firstname</label><br>
-            <input type="text" id="firstname" name="firstname"><br>
+            <input type="text" id="firstname" name="firstname" placeholder="firstname" required><br>
            <label for="lastname"></label>Lastname</label><br>
-           <input type="text" id="lastname" name="lastname"><br>
+           <input type="text" id="lastname" name="lastname"placeholder="lastname"required><br>
            <label for="email">Email</label><br>
-           <input type="email" id="email" name="email"><br>
+           <input type="email" id="email" name="email"placeholder="email"required><br>
            <label for="password">Password</label><br>
-           <input type="password" id="password" name="password"><br>
+           <input type="password" id="password" name="password" placeholder="password"required><br>
 
            <label>Gender:</label><br>
            <input type ="radio" name="gender" id="male" value="male">
            <label for="male">Male</label><br>
-           <input type="radio" name="gender" id="female" value="female">
+           <input type="radio" name="gender" id="fema1425le" value="female">
            <label for="female">Female</label><br>
            
            <label>Hobbies:</label><br>
@@ -36,12 +39,12 @@
             </select> <br> <br>
 
             <label for ="message"> Leave a Message:</label><br>
-            <textarea id="message" name="message" rows="10" cols="10"></textarea><br><br>
+            <textarea id="message" name="message" rows="10" cols="10" maxlength="20"></textarea><br><br>
 
             <input type="submit" id="Submit" name="submit" value="Submit">
+         
 
-
-
+          </fieldset>
         	
         </form>
         </body>
