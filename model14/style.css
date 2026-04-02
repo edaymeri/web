@@ -1,0 +1,30 @@
+article p {
+    background-color: lightpink;
+    color: rgb(133, 11, 96);
+    padding: 25px;
+}
+article >p {
+    background-color: #ffa07a;
+}
+article ~ p{
+    background-color: blueviolet;
+    color :white ;
+    padding: 25px;
+    
+}
+article + p {
+    background-color: lightblue;
+
+}
+input:invalid{
+    border: 2px solid rgb(146, 20, 20);
+}
+input:valid{
+    border: 2px solid rgb(19, 117, 19);
+}
+input :in-range{
+    border: 20px solid rgb(19, 117, 19);
+}
+input :out-of-range{
+    border: 20px solid rgb(146, 20, 20);
+}
