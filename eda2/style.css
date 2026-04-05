@@ -13,11 +13,11 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration:overline color rgb(214, 184, 184);
     text-shadow:2px 2px 4px rgb(rgb(52, 12, 126);
-
+}
 nav{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
 }
 .links a {
     margin-left: 20px;
@@ -33,6 +33,4 @@ a:hover{
 }
  a:active{
     color: black;
-
  }
- 
