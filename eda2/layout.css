@@ -1,0 +1,23 @@
+body{
+    background-image:url(fotot/ded.jpg);
+}
+h1{
+    color: rgb(44, 29, 11);
+    padding: 2px;
+    text-align:left;
+    
+    letter-spacing: 10px;
+}
+
+
+
+
+p{
+    color: rgb(44, 29, 11);
+    text-align: justify;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr{
+    border: 1px solid black;
+}
