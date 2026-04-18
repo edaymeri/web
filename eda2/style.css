@@ -1,0 +1,37 @@
+body{
+    background-image: url(fotot/eee.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-indent: 25px;
+    word-spacing: 7px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:overline color rgb(214, 184, 184);
+    text-shadow:2px 2px 4px rgb(245, 245, 250);
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.links a{
+    margin-left: 20px;
+    color: rgb(242, 239, 252);
+}
+a:link{
+    color: rgb(245, 253, 253);
+}
+a:visited{
+    color: rgb(233, 225, 225);
+}
+a:hover{
+    color: rgb(2, 2, 75);
+}
+ a:active{
+    color: black;
+ }
