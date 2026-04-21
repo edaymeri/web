@@ -91,3 +91,26 @@ body{
     display: table;
     clear: both;
 }
+#vertical-menu{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(241, 187, 129);
+    width: 25%;
+    position: fixed;
+    height: 100%;
+}
+#vertical-menu li a {
+    padding: 8px 16px;
+    color: rgb(156, 141, 5);
+    text-decoration: none;
+    display: block;
+}
+#vertical-menu li a.active{
+    background: rgb(255, 136, 0);
+}
+#vertical-menu li a:hover:not(.active){
+    background-color: rgba(49, 28, 1, 0.863);
+}
+
