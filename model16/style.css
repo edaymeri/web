@@ -1,0 +1,50 @@
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 140px;
+}
+.gallery:hover{
+    border: 2px solid darkblue;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+p[class*=ds]{
+    color: rgb(243, 243, 243);
+    background: rgb(18, 18, 117);
+    padding: 20px;
+}
+h1[class|=heading]{
+    background-color:rgb(85, 187, 255);
+    padding: 20px;
+    color: bisque;
+}
+
+div[id~="ds"]{
+    background-color: aqua;
+    color: blanchedalmond;
+    padding: 20px;
+}
+img[title^=blue]{
+    background:pink;
+    padding: 20px;
+    color: blue;
+}
+img[title$=blue]{
+    background:rgb(109, 5, 22);
+    padding: 20px;
+    color: blue;
+
+}
+img[title$=sky]{
+    background:rgb(219, 176, 183);
+    padding: 20px;
+    color: blue;
+}

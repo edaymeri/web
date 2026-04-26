@@ -1,23 +1,65 @@
 body{
-    background-image:url(fotot/ded.jpg);
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f1ea;
+    color:#333;
+}
+.container{
+    width: 80%;
+    max-width:900px;
+    margin: 40px auto;
+    background:white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(0,0,0,0.15);
 }
 h1{
-    color: rgb(44, 29, 11);
-    padding: 2px;
-    text-align:left;
-    
-    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#5a3e2b;
+    font-size: 32px;
 }
 
-
-
-
-p{
-    color: rgb(44, 29, 11);
-    text-align: justify;
-    padding: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.subtitle{
+    text-align: center;
+    margin-bottom: 30px ;
+    color: #777;
 }
-hr{
-    border: 1px solid black;
+.section{
+    margin-bottom: 25px;
+    padding:20px;
+    background: #faf7f2;
+    border-radius: 12px ;
+    border-left: 5px solid #8b5e3c;
+    color: #333;
+}
+section h2{
+    margin-top: 0;
+    color: #6b4226;
+}
+label{
+    display: block;
+    width: 100%;
+   margin: 10px 0;
+   font-size: 18px;
+   color: #333;
+   cursor:pointer;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #6f472d;
 }
