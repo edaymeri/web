@@ -1,0 +1,44 @@
+body{
+    counter-reset: number;
+
+}
+
+h2::before{
+counter-increment: number;
+content: counter(number);
+background-color: blue;
+border-radius: 15px;
+padding: 5px 12px;
+color: bisque;
+margin: 10px;
+}
+
+:root{
+    --primary-color:#06206a;
+    --secondary-color:#fff;
+    --padding:20px;
+
+}
+.vars{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+.rounded{
+    display: flex;
+}
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(images.png);
+
+}
+.rounded #example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 10px;
+    background-color: #4b5b86;
+}
