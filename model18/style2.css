@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(2, 40, 85);
+    border-radius: 50px;
+    transition: background 3s;
+  
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+
+}
+div:hover{
+    background-color: rgb(11, 27, 27);
+}
+

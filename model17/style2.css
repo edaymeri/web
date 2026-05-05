@@ -39,6 +39,6 @@ margin: 10px;
     margin: 10px;
     width: 150px;
     height: 150px;
-    border-radius: 5px 60px 10px;
+    border-radius:10px/30px;
     background-color: #4b5b86;
 }
