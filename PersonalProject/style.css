@@ -47,7 +47,7 @@ button{
     cursor: pointer;
 
 }
-buttom:hover{
+button:hover{
     background: #ad1457;
 }
 .title{
@@ -56,9 +56,12 @@ buttom:hover{
 }
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 30px;
     margin: 40px;
+    margin-left: 500px;
+    max-width: 1150px;
 }
 .card{
     width:250px;
@@ -66,7 +69,6 @@ buttom:hover{
     padding: 20px;
     text-align: center;
     border-radius: 12px;
-
     box-shadow: 0 0 10px gray;
     transition: 0.5s;
 }
