@@ -45,7 +45,7 @@ button{
     color: white;
     border-radius:8px;
     cursor: pointer;
-
+    margin-top: 20px;
 }
 button:hover{
     background: #ad1457;
@@ -109,3 +109,18 @@ section{
         transform: translateY(-5px);
     }
 }
+picture{
+    padding: 20px;
+    margin-left: 23px;
+    width: 90px;
+}
+img{
+    padding-left: 35px;
+   justify-items: center;
+   margin-bottom: 56px;
+}
+
+
+
+
+
