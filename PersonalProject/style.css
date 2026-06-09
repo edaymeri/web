@@ -60,7 +60,6 @@ button:hover{
     flex-wrap: wrap;
     gap: 30px;
     margin: 40px;
-    margin-left: 500px;
     max-width: 1150px;
 }
 .card{
